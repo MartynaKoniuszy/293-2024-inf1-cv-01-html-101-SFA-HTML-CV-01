@@ -1,27 +1,49 @@
-* {
-    box-sizing: border-box;
+/* Changer la couleur d'un texte */
+h1 {
+    color: blue;
 }
 
+/* Modifier la taille des textes */
+p {
+    font-size: 14px;
+}
+
+/* Ajouter une marge intérieure au header */
+header {
+    padding: 10px;
+}
+
+/* Ajouter une marge extérieure au footer */
+footer {
+    margin-top: 10px;
+}
+
+/* Changer l'alignement d'un texte */
+.text-center {
+    text-align: center;
+}
+
+/* Appliquer une image de fond à la page */
 body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: darkblue;
-    background-color: whitesmoke;
+    background-color: lightgray;
+    font-family: Quicksand;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-a {
-    color: deeppink;
+/* Ajouter un effet de survol aux liens */
+nav a {
+    color: black;
     text-decoration: none;
 }
-
-a:hover {
-    color: darkmagenta;
+nav a:hover {
+    color: red;
+    text-decoration: underline;
 }
+
+/* Définir la bordure d'un élément */
+section {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
